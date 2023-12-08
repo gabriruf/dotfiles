@@ -30,7 +30,6 @@ dashboard.section.header.val = {
     [[     `:::::::::88888:::::::'      ]],
     [[        rs`:::'       `:'         ]],
 }
- 
 
 dashboard.section.buttons.val = {
     dashboard.button( "e", "  New file" , ":ene <BAR> startinsert <CR>"),
@@ -46,10 +45,7 @@ dashboard.section.footer.val = { [[If you don’t know where you’re going, any
 
 dashboard.config.opts.noautocmd = true
 
-vim.cmd[[autocmd User AlphaReady echo 'ready']]
+--vim.cmd[[autocmd User AlphaReady echo 'ready']]
 
 alpha.setup(dashboard.config)
-
-
---require'alpha'.setup(require'alpha.themes.dashboard'.config)
 

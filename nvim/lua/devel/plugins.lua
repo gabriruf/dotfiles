@@ -17,7 +17,7 @@ if not ok then
 end
 
 lazy.setup({
-    { 
+    {
         "srcery-colors/srcery-vim",
         lazy = false,
         priority = 1000,
@@ -26,8 +26,8 @@ lazy.setup({
         end,
     },
     { "nvim-tree/nvim-web-devicons" },
-    { "goolord/alpha-nvim" },
     { "nvim-lualine/lualine.nvim" },
+    { "nvimdev/dashboard-nvim" },
     { "nvim-telescope/telescope.nvim", tag = "0.1.5" },
     { "nvim-lua/plenary.nvim" },
     { "nvim-telescope/telescope-file-browser.nvim" },
